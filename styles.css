@@ -78,7 +78,11 @@ body{
 
 
 @media only screen and (max-width: 375px) {
-  .divider-img{
-  	content: url(images/pattern-divider-mobile.svg);
-  }
+	.card{
+		width: 80%;
+	}
+
+	.divider-img{
+		content: url(images/pattern-divider-mobile.svg);
+	}
 }
