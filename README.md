@@ -14,7 +14,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](.design/screenshot.png)
+![](design/screenshot.png)
 
 ### Links
 
