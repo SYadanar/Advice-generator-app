@@ -79,7 +79,8 @@ body{
 
 @media only screen and (max-width: 375px) {
 	.card{
-		width: 22rem;
+		/*width: 22rem;*/
+		width: 90vw;
 	}
 
 	.divider-img{
