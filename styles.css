@@ -77,9 +77,8 @@ body{
 
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
 	.card{
-		/*width: 22rem;*/
 		width: 90vw;
 	}
 

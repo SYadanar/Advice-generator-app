@@ -10,8 +10,7 @@ const getAdvice = () => fetch('https://api.adviceslip.com/advice')
 	})
 	.then(data => {
 		// console.log(data);
-		// adviceID.textContent = data.slip.id;
-		adviceID.textContent = screen.width;
+		adviceID.textContent = data.slip.id;
 		adviceText.textContent = data.slip.advice;
 
 		main.classList.remove("d-none");
