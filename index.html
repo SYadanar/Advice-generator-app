@@ -17,7 +17,7 @@
 </head>
 <body onload="getAdvice()">
 
-  <main>
+  <main id="main-content">
     <div class="card text-center px-5 py-5">
       <h1 class="card-title text-uppercase pb-3">Advice #<span id="advice-id"><!-- Advice ID goes here --></span></h1>
 
@@ -25,9 +25,9 @@
 
       <img src="images/pattern-divider-desktop.svg" class="divider-img py-4" alt="divider image">
 
-      <div class="random-dice d-flex rounded-circle" id="dice">
+      <button class="random-dice d-flex rounded-circle border-0" id="dice">
         <img src="images/icon-dice.svg" class="" alt="dice icon">
-      </div>
+      </button>
     </div>
     
     <footer class="pt-5">
@@ -37,6 +37,12 @@
       </div>
     </footer>
   </main>
+
+  <!-- Spinner -->
+  <div class="d-flex align-items-center d-none" id="loading-spinner">
+    <strong>Loading...</strong>
+    <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+  </div>
 
   <!-- JS -->
   <!-- Bootstrap -->
