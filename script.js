@@ -18,9 +18,10 @@ const getAdvice = () => fetch('https://api.adviceslip.com/advice')
 	})
 	.catch(error => console.log("ERROR"))
 
-
-dice.addEventListener("click", () => {
+const loadAPI = () => {
 	main.classList.add("d-none");
 	loadingSpinner.classList.remove("d-none");
 	getAdvice();
-});
+}
+
+dice.addEventListener("click", loadAPI);

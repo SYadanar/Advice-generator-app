@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
-<body onload="getAdvice()">
+<body onload="loadAPI()">
 
   <main id="main-content">
     <div class="card text-center px-5 py-5">
@@ -40,7 +40,7 @@
 
   <!-- Spinner -->
   <div class="d-flex align-items-center d-none" id="loading-spinner">
-    <strong>Loading...</strong>
+    <strong>Generating Advice... </strong>
     <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
   </div>
 
